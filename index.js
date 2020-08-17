@@ -33,6 +33,15 @@ function processFirstItem(stringList, callback) {
  * 3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
  *
 */
+console.log('********** Task 1 **********')
+console.log('Question 1-1')
+console.log('Counter 1 is the Higher Order fuction that the Callback will be passed into.', 'Counter 2 is the Callback that will act as the argument for the counter1.')
+
+console.log('Question 1-2')
+console.log('The Callback uses the closure after it recieves the information from the "parent" element.')
+
+console.log('Question 1-3')
+console.log('counter1 is used for individual counts, and counter2 would be used to add up the individual counts for a total count.')
 
 // counter1 code
 function counterMaker() {
@@ -55,12 +64,23 @@ function counter2() {
 /* Task 2: inning() 
 
 Write a function called `inning` that returns a random number of points that a team scored in an inning. This should be a whole number between 0 and 2. */
+console.log('********** Task 2 **********')
 
-function inning(/*Code Here*/){
 
-    /*Code Here*/
+function inning(max) {
+  max = Math.floor(3);
+    return Math.floor(Math.random() * Math.floor(3));
 
 }
+console.log(inning(3));
+console.log(inning(3));
+console.log(inning(3));
+console.log(inning(3));
+console.log(inning(3));
+console.log(inning(3));
+console.log(inning(3));
+console.log(inning(3));
+console.log(inning(3));
 
 /* Task 3: finalScore()
 
@@ -75,8 +95,9 @@ finalScore(inning, 9) might return:
 }
 
 */ 
+console.log('********** Task 3 **********')
 
-function finalScore(/*code Here*/){
+function finalScore(inning, ){
 
   /*Code Here*/
 
@@ -101,7 +122,7 @@ and returns the score at each pont in the game, like so:
 8th inning: awayTeam - homeTeam
 9th inning: awayTeam - homeTeam
 Final Score: awayTeam - homeTeam */
-
+console.log('********** Task 4 **********')
 
 function scoreboard(/* CODE HERE */) {
   /* CODE HERE */
