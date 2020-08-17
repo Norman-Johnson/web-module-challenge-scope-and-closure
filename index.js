@@ -99,12 +99,14 @@ console.log('********** Task 3 **********')
 
 function finalScore(inning){
   max = Math.floor(3);
-    return Math.floor(Math.random() * Math.floor(3));
+    return Math.floor(Math.random() * Math.floor(3))
   let home = 0;
   let away = 0;
-  for 
+  for(let i = 0; i < inning; i++);
+  console.log(`${i} inning: ${away} - ${home}`);
 
 }
+console.log(finalScore(inning, 9));
 
 /* Task 4: 
 
