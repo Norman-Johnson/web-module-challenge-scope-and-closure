@@ -42,6 +42,11 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+ANSWER:
+
+  A closure is functions nested together to keep the variables as the are while the function exists.  They provide access to the outer function's scope from an inner function.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -65,6 +70,17 @@ dansRoll();
 a. Where is closure used in this code? How can you tell?
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 c. What is the lexical scope of `newRoll`? 
+
+ANSWER:
+
+  a. 
+    console.log(`${name} rolled a ${newRoll}`); This is where the outcome will change each time the function is returned.
+
+  b.
+      The person rolling remains the same, the number, 0-5, changes.
+
+  c.
+      zero to 5
 
 ### Task 2c - Exit Ticket
 

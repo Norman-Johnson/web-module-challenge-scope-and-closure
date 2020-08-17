@@ -97,9 +97,12 @@ finalScore(inning, 9) might return:
 */ 
 console.log('********** Task 3 **********')
 
-function finalScore(inning, ){
-
-  /*Code Here*/
+function finalScore(inning){
+  max = Math.floor(3);
+    return Math.floor(Math.random() * Math.floor(3));
+  let home = 0;
+  let away = 0;
+  for 
 
 }
 
